@@ -1,0 +1,15 @@
+
+
+v  Q           *@:PyFlakeAuto<CR>
+n  [m          *@:call <SNR>31_Python_jump('?^\s*\(class\|def\)')<CR>
+n  [[          *@:call <SNR>31_Python_jump('?^\(class\|def\)')<CR>
+n  ]m          *@:call <SNR>31_Python_jump('/^\s*\(class\|def\)')<CR>
+n  ]]          *@:call <SNR>31_Python_jump('/^\(class\|def\)')<CR>
+v  gx            <Plug>NetrwBrowseXVis
+n  gx            <Plug>NetrwBrowseX
+v  <Plug>NetrwBrowseXVis * :<C-U>call netrw#BrowseXVis()<CR>
+n  <Plug>NetrwBrowseX * :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
+   <F2>          :echo 'IN: VIMRC: Current time is ' . strftime('%c')<CR>
+
+
+No mapping found
