@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cube	functionPractice1.py	/^def cube(x):$/;"	f
+cube	vimPractice2.py	/^def cube(x):$/;"	f
+f	variablePractice1.py	/^f = "abc"$/;"	v
+f	variablePractice1.py	/^f = 0$/;"	v
+function1	functionPractice1.py	/^def function1():$/;"	f
+function1	vimPractice2.py	/^def function1():$/;"	f
+function2	functionPractice1.py	/^def function2(arg1, arg2):$/;"	f
+function2	vimPractice2.py	/^def function2(arg1, arg2):$/;"	f
+multi_add	functionPractice1.py	/^def multi_add(*args):$/;"	f
+multi_add	vimPractice2.py	/^def multi_add(*args):$/;"	f
+power	functionPractice1.py	/^def power(number, x=1):$/;"	f
+power	vimPractice2.py	/^def power(number, x=1):$/;"	f
